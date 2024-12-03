@@ -6,7 +6,7 @@ const TypeToEmoji = {
   default: '💡',
   error: '🚫',
   info: <InformationCircleIcon className="_mt-1" />,
-  warning: '⚠️'
+  warning: ' 👀' // '⚠️'
 }
 
 type CalloutType = keyof typeof TypeToEmoji
